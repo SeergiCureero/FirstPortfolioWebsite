@@ -29,6 +29,7 @@ __Sergi 1 Color Theme__
 
   /*__Font Types__*/
   --font-for-titles: Helvetica, Geneva, Tahoma, sans-serif;
+  --font-for-plain-text: Helvetica, Geneva, Tahoma, sans-serif;
   --font-handwrite-quick: "Bradley Hand", cursive;
   --font-handwrite-elavorate: "URW Chancery L", cursive;
   --font-handwrite-evenMoreElavorate: "Snell Roundhand", cursive;
@@ -53,6 +54,10 @@ h2 {
   font-family: var(--font-for-titles);
   text-decoration: none;
 }
+p {
+  color: var(--main-lightest-color);
+  font-family: var(--font-for-plain-text);
+}
 
 .nav {
   color: var(--main-lightest-color);
@@ -73,6 +78,8 @@ h2 {
 }
 .ToDoApp {
   background-color: var(--main-light-color);
+  padding: 10px;
+  margin-top: 20px;
 }
 
 .toDoList {
@@ -88,4 +95,7 @@ h2 {
 .noteBlockUl {
   margin-left: 2%;
   padding: 2%;
+}
+.linkBetweenText {
+  color: var(--main-lightest-color);
 }
