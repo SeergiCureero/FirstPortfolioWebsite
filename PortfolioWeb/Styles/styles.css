@@ -1,0 +1,91 @@
+/*
+__Python Color Theme__
+  --main-darkest-color: #022c43;
+  --main-dark-color: #053f5e;
+  --main-light-color: #115173;
+  --main-lightest-color: #ffd700;
+
+__Iris 2 Color Theme__
+--main-darkest-color: #182952;
+--main-dark-color: #2b3595;
+--main-light-color: #7045af;
+--main-lightest-color: #e14594;
+
+__Sergi 1 Color Theme__
+--main-darkest-color: #000000;  o   #333
+--main-dark-color: #3e432e;
+--main-light-color: #616f39;
+--main-lightest-color: #a7d129;
+*/
+
+:root {
+  /*__Colors__*/
+  --main-darkest-color: #022c43;
+  --main-dark-color: #053f5e;
+  --main-light-color: #115173;
+  --main-lightest-color: #ffd700;
+
+  --paper-background-color: beige;
+
+  /*__Font Types__*/
+  --font-for-titles: Helvetica, Geneva, Tahoma, sans-serif;
+  --font-handwrite-quick: "Bradley Hand", cursive;
+  --font-handwrite-elavorate: "URW Chancery L", cursive;
+  --font-handwrite-evenMoreElavorate: "Snell Roundhand", cursive;
+}
+
+body {
+  background-color: var(--main-darkest-color);
+}
+header {
+  background-color: var(--main-dark-color);
+  margin: 0;
+  padding: 0;
+  height: 100px;
+}
+ul {
+  list-style-type: none;
+  margin-left: 5%;
+  padding: 0;
+}
+h2 {
+  color: var(--main-lightest-color);
+  font-family: var(--font-for-titles);
+  text-decoration: none;
+}
+
+.nav {
+  color: var(--main-lightest-color);
+  text-decoration: none;
+  font-family: var(--font-for-titles);
+}
+.myName {
+  color: var(--main-lightest-color);
+  font-family: var(--font-for-titles);
+  margin-left: 1%;
+  margin-top: 1%;
+}
+.menu-item {
+  font-size: 150%;
+  background-color: var(--main-light-color);
+  margin: 0;
+  display: inline;
+}
+.ToDoApp {
+  background-color: var(--main-light-color);
+}
+
+.toDoList {
+  background-color: var(--paper-background-color);
+}
+
+.delBut {
+  font-family: var(--font-handwrite);
+}
+.elementOfList {
+  font-family: var(--font-handwrite);
+}
+.noteBlockUl {
+  margin-left: 2%;
+  padding: 2%;
+}
